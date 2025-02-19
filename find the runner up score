@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())  
+    scores = list(map(int, input().split()))  
+    
+    unique_scores = set(scores) 
+    sorted_scores = sorted(unique_scores, reverse=True)  
+    print(sorted_scores[1])  
